@@ -1,0 +1,60 @@
+{
+  "all_gate_objects_executed": true,
+  "checkpoint_io_event_count": 67,
+  "checkpoint_io_failure_count": 0,
+  "checkpoint_io_probe": {
+    "diagnostics": {
+      "free_bytes": 46743974576128,
+      "parent": "/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7",
+      "parent_exists": true,
+      "parent_is_directory": true,
+      "parent_writable": true,
+      "target": "/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/placeholder.pt",
+      "total_bytes": 80009737797632
+    },
+    "passed": true,
+    "root": "/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7",
+    "timestamp_utc": "2026-09-06T01:13:59.757962+00:00"
+  },
+  "cuda_available": false,
+  "dataset_root": "/home/a.riyahi/EvoBridge_SHM/data/raw/z24",
+  "effective_cpu_threads": 8,
+  "frozen_protocol_sha256": "23eb6a54d0683384c7a7b4c63bfa23224019391623d1c6afa8c46f50fec765dc",
+  "full_numerical_run_on_marwan_demonstrated": true,
+  "full_run_on_marwan_compute_node_demonstrated": true,
+  "gate_decisions": {
+    "A_data_and_modal_observations": "GO_TO_SYNTHETIC_PHYSICS_PILOT",
+    "B_full_pinn": "GO_TO_GPT_PINN_PILOT",
+    "C_gpt_pinn_pilot": "GO_TO_Z24_CALIBRATION_PILOT_WITH_FE_BASELINE_REQUIRED",
+    "D_simple_parameterization": "NO_GO_REVISE_PHYSICAL_PARAMETERIZATION",
+    "E_three_span_parameterization": "GO_TO_MULTIPARAMETRIC_GPT_PINN_V0_6_FINAL",
+    "F_multimode_gpt_pinn": "GO_TO_Z24_ONLINE_STATE_UPDATING_V0_6_FINAL",
+    "G1_identifiable_trajectory": "GO_TO_CONDITIONAL_RESPONSE_PROPAGATION_V0_6_FINAL",
+    "G_free_two_parameter_update": "NO_GO_TWO_PARAMETER_UNCERTAINTY_UNSTABLE",
+    "H_conditional_response_propagation": "NO_GO_CONDITIONAL_RESPONSE_PROPAGATION_REVISE",
+    "I_z24_fvt_locked_audit": "NO_GO_Z24_FVT_EXTERNAL_VALIDATION"
+  },
+  "gate_f_smoke_fe_proxy_used": false,
+  "gate_f_state_source_classes": [
+    "FULL_PINN_TRAINED"
+  ],
+  "hostname": "data31",
+  "is_login_node": false,
+  "notebook_path": "/home/a.riyahi/GPT_PINN/GPT_PINN_Z24_Physics_Digital_Twin_V0_6_FINAL_R3.ipynb",
+  "output_root": "/home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z",
+  "patch_level": "V0_6_FINAL_R3_JSON_SAFE_FINAL_EVIDENCE_PIPELINE",
+  "project_root": "/home/a.riyahi/GPT_PINN",
+  "publication_timing_compute_certified": true,
+  "python_version": "3.11.7",
+  "raw_z24_metadata_signature_before": "fa1e2cd04370ed3f9e2bd68d1220df56837aec89d0603f54cc66b017c67fad48",
+  "raw_z24_metadata_unchanged": true,
+  "resource_policy_events": [],
+  "run_id": "V0_6_FINAL_R3_FULL_508150_20260906T011342Z",
+  "run_profile": "full",
+  "slurm_job_id": "508150",
+  "slurm_node_list": "data31",
+  "source_notebook_sha256_at_runtime": "e8dbc09b32a14333c623d368ac0a8c385d15ca0534c2166f0f61702c297ce664",
+  "timestamp_utc": "2026-09-06T03:40:12.694302+00:00",
+  "torch_version": "2.7.1+cu118",
+  "version": "V0_6_FINAL"
+}

@@ -1,0 +1,17 @@
+requirement,passed
+gate_b_full_pinn_go,True
+gate_c_gpt_pinn_go,True
+gate_e_three_span_go,True
+gate_f_multimode_gpt_go,True
+gate_f_real_full_pinn_basis_no_smoke_proxy,True
+gate_g_two_parameter_no_go_preserved,True
+gate_g1_identifiable_trajectory_go,True
+gate_i_locked_audit_executed_without_refit,True
+final_protocol_frozen,True
+final_timing_scientifically_valid,True
+final_ablation_completed,True
+final_sensitivity_completed,True
+raw_z24_metadata_unchanged,True
+checkpoint_io_probe_passed,True
+checkpoint_io_no_save_failures,True
+full_profile,True

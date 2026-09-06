@@ -1,0 +1,13 @@
+{
+  "basis_order_note": "The spread-order comparison reorders the same greedy-trained state pool; it is not an independently trained random/uniform design.",
+  "checks": {
+    "all_basis_evaluations_finite": true,
+    "final_greedy_basis_frequency_error_le_0p2pct": true,
+    "reference_loso_ablation_finite": true
+  },
+  "current_run_ablation_publication_evidence": true,
+  "reference_configuration": "full paired-setup covariance + model discrepancy + experimental modes 1,3,4",
+  "smoke_fe_proxy_used": false,
+  "timestamp_utc": "2026-09-06T03:39:59.715726+00:00",
+  "version": "V0_6_FINAL"
+}

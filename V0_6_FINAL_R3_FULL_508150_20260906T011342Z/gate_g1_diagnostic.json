@@ -1,0 +1,99 @@
+{
+  "capacity_or_rul_claim_performed": false,
+  "checks": {
+    "causal_xi_non_decreasing": true,
+    "full_execution": true,
+    "loso_bootstrap_split_difference_le_0p10": true,
+    "loso_ci_coverage_100pct": true,
+    "loso_extrapolation_absolute_xi_error_le_0p15": true,
+    "loso_interpolation_absolute_xi_error_le_0p15": true,
+    "loso_spearman_ge_0p9": true,
+    "manifold_calibration_max_residual_le_3sigma": true,
+    "maximum_online_update_time_le_1s": true,
+    "minimum_weighted_sensitivity_ge_2": true,
+    "no_heldout_target_used_by_inverse_optimizer": true,
+    "online_absolute_xi_error_le_0p15": true,
+    "online_bootstrap_all_ci_cover_truth": true,
+    "online_bootstrap_ci_width_le_0p5": true,
+    "online_bootstrap_split_difference_le_0p05": true,
+    "online_bootstrap_unimodal": true,
+    "online_modal_ratio_rmse_le_1pct": true,
+    "online_nis_below_99pct_limit": true,
+    "online_standardized_residual_le_3sigma": true,
+    "physics_beats_both_baselines_in_at_least_75pct_folds": true,
+    "prior_gate_g_no_go_preserved": true,
+    "raw_z24_signature_unchanged": true
+  },
+  "conditional_prognosis_performed": false,
+  "decision": "GO_TO_CONDITIONAL_RESPONSE_PROPAGATION_V0_6_FINAL",
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "limitations": [
+    "the one-dimensional manifold uses fixed exponents selected during earlier model development",
+    "full-sequence online synchronization is retrospective; strict LOSO is the generalization evidence",
+    "only four nonhealthy settlement severities are available",
+    "predictive discrepancy is added to a paired-setup covariance model; only the model-discrepancy increment remains diagonal",
+    "xi is a benchmark progression coordinate and H=1-xi is not structural capacity or remaining life"
+  ],
+  "online": {
+    "effective_health_1d": [
+      1.0,
+      0.6938716409344472,
+      0.6096025029708929,
+      0.14417705331922914,
+      0.007053696290980516
+    ],
+    "maximum_absolute_xi_error_against_benchmark": 0.09560204327607907,
+    "maximum_modal_ratio_rmse": 0.0063258626563308445,
+    "maximum_standardized_residual": 0.8391181983003762,
+    "maximum_update_seconds": 0.0089089700486511,
+    "point_xi": [
+      0.0,
+      0.30612835906555275,
+      0.39039749702910714,
+      0.8558229466807709,
+      0.9929463037090195
+    ]
+  },
+  "prior_gate_g_decision": "NO_GO_TWO_PARAMETER_UNCERTAINTY_UNSTABLE",
+  "raw_z24_signature_unchanged": true,
+  "strict_loso": {
+    "extrapolation_95mm_absolute_xi_error": 0.02943685635265403,
+    "gp_mean_absolute_xi_error": 0.2513251084366668,
+    "maximum_interpolation_absolute_xi_error": 0.11789219400358608,
+    "pchip_mean_absolute_xi_error": 0.16423886458315687,
+    "physics_mean_absolute_xi_error": 0.04949564540028112,
+    "physics_win_fraction": 1.0,
+    "spearman": 1.0,
+    "target_used_by_inverse_optimizer": false
+  },
+  "timestamp_utc": "2026-09-06T03:34:58.769641+00:00",
+  "trajectory": {
+    "definition": "alpha=a*xi; log10(rK)=-b*sqrt(xi)",
+    "fitted_amplitudes_a_b": [
+      0.5603365657142761,
+      1.8682670486346296
+    ],
+    "fixed_exponents": [
+      1.0,
+      0.5
+    ],
+    "interpretation": "settlement-progression coordinate; not stiffness or capacity"
+  },
+  "two_parameter_identifiability_claim": false,
+  "uncertainty": {
+    "loso_bootstrap_replicates_per_fold": 400,
+    "loso_ci_coverage_fraction": 1.0,
+    "maximum_ci_width": 0.3885489840598976,
+    "maximum_kde_mode_count": 1,
+    "maximum_online_split_quantile_difference": 0.02219574912738498,
+    "model_discrepancy_by_mode": [
+      0.007923058780609624,
+      0.007381481123591991,
+      0.006882257537079192
+    ],
+    "online_bootstrap_replicates": 1000,
+    "online_bootstrap_seconds": 25.220720431068912
+  },
+  "version": "V0.6 FINAL"
+}

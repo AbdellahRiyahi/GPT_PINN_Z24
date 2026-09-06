@@ -1,0 +1,32 @@
+{
+  "basis_grid_levels": [
+    251,
+    501,
+    1001
+  ],
+  "basis_grid_max_error_range": 3.269900496648574e-06,
+  "checks": {
+    "basis_grid_frequency_range_le_0p2pct": true,
+    "basis_grid_mac_ge_0p999": true,
+    "fe_116_change_vs_finest_le_0p2pct": true,
+    "mesh_results_finite": true
+  },
+  "current_run_sensitivity_publication_evidence": true,
+  "mesh_116_max_relative_change_vs_finest": 6.421547705363967e-05,
+  "mesh_levels": [
+    29,
+    58,
+    116,
+    232
+  ],
+  "parameters_intentionally_not_retuned": [
+    "three-span geometry",
+    "local-zone width",
+    "retained experimental modes",
+    "trajectory exponents/amplitudes",
+    "Gate-I threshold"
+  ],
+  "smoke_fe_proxy_used": false,
+  "timestamp_utc": "2026-09-06T03:40:10.253697+00:00",
+  "version": "V0_6_FINAL"
+}

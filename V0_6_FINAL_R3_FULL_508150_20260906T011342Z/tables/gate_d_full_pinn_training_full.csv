@@ -1,0 +1,16 @@
+basis_number,mu,mode_order,runtime_seconds,checkpoint,checkpoint_bytes,loaded_checkpoint
+1,0.35,2,160.77435530396178,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_2.pt,33260,False
+1,0.35,3,164.51421476900578,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_3.pt,33036,False
+1,0.35,4,179.08957770303823,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_4.pt,33036,False
+2,0.7,2,387.3223910520319,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_2.pt,42499,False
+2,0.7,3,313.26823763898574,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_3.pt,42499,False
+2,0.7,4,306.008208880201,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_4.pt,42485,False
+3,0.0,2,165.45683018886484,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_2.pt,33932,False
+3,0.0,3,201.2743122749962,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_3.pt,33932,False
+3,0.0,4,141.98238568007946,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_4.pt,33820,False
+4,0.6,2,342.7858977110591,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_2.pt,42611,False
+4,0.6,3,376.08868425991386,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_3.pt,42611,False
+4,0.6,4,193.2917105120141,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt,33036,False
+5,0.15,2,194.87142226006836,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt,33260,False
+5,0.15,3,102.60093572502956,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt,33256,False
+5,0.15,4,279.4441990950145,/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt,33372,False

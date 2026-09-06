@@ -1,0 +1,10 @@
+physical_avt_setup,expected_fvt_file_setup,inferred_fvt_file_setup,jaccard_label_overlap,common_response_channels,mapping_matches_documented_reversal
+1,9,9,0.95,19,True
+2,8,8,1.0,20,True
+3,7,7,1.0,20,True
+4,6,6,1.0,20,True
+5,5,5,1.0,18,True
+6,4,4,1.0,20,True
+7,3,3,0.95,19,True
+8,2,2,1.0,20,True
+9,1,1,1.0,20,True

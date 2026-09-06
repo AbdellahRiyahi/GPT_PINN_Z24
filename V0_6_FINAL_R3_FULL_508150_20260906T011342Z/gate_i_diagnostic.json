@@ -1,0 +1,68 @@
+{
+  "avt_fvt_setup_mapping_status": "DOCUMENTED_REVERSED_MAPPING_CONFIRMED_BY_LABEL_OVERLAP",
+  "avt_to_fvt_setup_map": {
+    "1": 9,
+    "2": 8,
+    "3": 7,
+    "4": 6,
+    "5": 5,
+    "6": 4,
+    "7": 3,
+    "8": 2,
+    "9": 1
+  },
+  "bootstrap_replicates": 1000,
+  "bootstrap_runtime_seconds": 24.522582646925002,
+  "checks": {
+    "bootstrap_split_difference_le_0p10": true,
+    "causal_xi_non_decreasing": true,
+    "ci95_coverage_ge_0p80": true,
+    "full_execution": true,
+    "locked_no_target_refit": true,
+    "maximum_absolute_xi_error_le_0p25": true,
+    "maximum_modal_ratio_rmse_le_2p5pct": false,
+    "mean_absolute_xi_error_le_0p15": true,
+    "minimum_setup_support_met": true,
+    "physics_not_materially_worse_than_best_locked_baseline": true,
+    "raw_z24_signature_unchanged": true,
+    "spearman_ge_0p90": true
+  },
+  "ci95_coverage_fraction_nonhealthy": 1.0,
+  "cross_mode_covariance": "paired physical-setup bootstrap covariance with shrinkage",
+  "decision": "NO_GO_Z24_FVT_EXTERNAL_VALIDATION",
+  "development_excitation": "AVT",
+  "execution_mode": "full",
+  "fvt_shaker_channels_excluded": [
+    "DP1V",
+    "DP2V"
+  ],
+  "gate": "I_Z24_FVT_LOCKED_VALIDATION",
+  "limitations": [
+    "FVT is a different excitation regime of the same bridge, not a second bridge",
+    "FVT healthy normalization uses scenario 01 and therefore does not test absolute frequency scale transfer",
+    "experimental mode identities remain rank-based because assembled global mode shapes are unavailable",
+    "the AVT-developed one-dimensional trajectory remains a model-form assumption"
+  ],
+  "maximum_bootstrap_split_quantile_difference": 0.01965459048735435,
+  "maximum_modal_ratio_rmse": 0.02999378191133526,
+  "maximum_physics_absolute_xi_error_nonhealthy": 0.08766371280668911,
+  "maximum_point_inverse_seconds": 0.005646625999361277,
+  "pchip_mean_absolute_xi_error_nonhealthy": 0.15389969976494358,
+  "physics_mean_absolute_xi_error_nonhealthy": 0.053253614171466776,
+  "rbf_gp_mean_absolute_xi_error_nonhealthy": 0.5226410822320315,
+  "retained_modes": [
+    1,
+    3,
+    4
+  ],
+  "spearman_nonhealthy": 1.0,
+  "target_refit_performed": false,
+  "trajectory_amplitudes_a_b": [
+    0.5603365657142761,
+    1.8682670486346296
+  ],
+  "trajectory_amplitudes_source": "AVT Gate G.1; frozen",
+  "upstream_model_changed_from_fvt": false,
+  "validation_excitation": "FVT",
+  "version": "V0.6 FINAL"
+}

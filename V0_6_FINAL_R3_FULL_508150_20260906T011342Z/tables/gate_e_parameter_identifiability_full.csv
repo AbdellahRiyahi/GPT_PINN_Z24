@@ -1,0 +1,3 @@
+parameter,estimate,standard_error_linearized_conditional_on_tau,lower_bound,upper_bound
+a_local_ei_amplitude,0.5603448350760594,0.046655760428425806,0.0,0.9
+b_support_log_amplitude,1.8664030371515379,0.11013305059862136,0.0,8.0

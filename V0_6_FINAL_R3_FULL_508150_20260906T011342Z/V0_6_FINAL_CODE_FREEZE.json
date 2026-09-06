@@ -1,0 +1,15 @@
+{
+  "article_evidence_status": "READY_FOR_MANUSCRIPT_AND_CODE_FREEZE",
+  "authorized": true,
+  "frozen_protocol_sha256": "23eb6a54d0683384c7a7b4c63bfa23224019391623d1c6afa8c46f50fec765dc",
+  "future_work_outside_this_article": [
+    "Route345 or OpenLab methodology transfer",
+    "calendar-time degradation/RUL data",
+    "maintenance-decision optimization"
+  ],
+  "gate_f_smoke_fe_proxy_used": false,
+  "locked_fvt_result_must_not_be_reclassified_post_hoc": true,
+  "source_notebook_sha256_at_runtime": "e8dbc09b32a14333c623d368ac0a8c385d15ca0534c2166f0f61702c297ce664",
+  "timestamp_utc": "2026-09-06T03:40:12.708065+00:00",
+  "version": "V0_6_FINAL"
+}

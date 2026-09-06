@@ -1,0 +1,106 @@
+{
+  "autonomous_or_calendar_time_prognosis_performed": false,
+  "autonomy_checks": {
+    "increment_free_forecast_demonstrated": false,
+    "mean_error_below_schedule_nominal": false,
+    "wins_against_schedule_nominal_in_at_least_2of3_origins": false
+  },
+  "autonomy_decision": "NO_GO_AUTONOMOUS_OR_CALENDAR_TIME_PROGNOSIS",
+  "baselines": {
+    "linear_trend_mean_absolute_xi_error": 0.030169414758785578,
+    "persistence_mean_absolute_xi_error": 0.2661181934956527,
+    "physics_mean_absolute_xi_error": 0.04506364351575284,
+    "physics_mean_modal_rmse": 0.008875759659069697,
+    "physics_schedule_win_fraction": 0.3333333333333333,
+    "rbf_gp_mean_absolute_xi_error": 0.21770539930461874,
+    "schedule_nominal_mean_absolute_xi_error": 0.030486849928669457,
+    "schedule_nominal_mean_modal_rmse": 0.007754256908530683
+  },
+  "capacity_or_rul_claim_performed": false,
+  "checks": {
+    "benchmark_warning_probabilities_bounded": true,
+    "bootstrap_split_quantile_difference_le_0p08": true,
+    "finite_probabilistic_scores": true,
+    "full_execution": true,
+    "future_control_increment_declared_as_condition": true,
+    "future_measurements_not_used_by_forecaster": true,
+    "future_targets_used_only_for_scoring": true,
+    "maximum_absolute_xi_error_le_0p15": true,
+    "maximum_modal_rmse_le_2pct": true,
+    "maximum_point_forecast_time_le_0p1s": false,
+    "maximum_probabilistic_forecast_time_le_predeclared_limit": false,
+    "maximum_xi_ci_width_le_0p65": true,
+    "mean_modal_rmse_le_1p5pct": true,
+    "mean_xi_crps_le_0p15": true,
+    "modal_predictive_coverage_ge_80pct": true,
+    "modal_rmse_not_materially_worse_than_schedule_nominal": true,
+    "prior_gate_g1_go_preserved": true,
+    "raw_z24_signature_unchanged": true,
+    "state_mae_not_materially_worse_than_schedule_nominal": true,
+    "three_rolling_origins_executed": true,
+    "xi_predictive_coverage_ge_2of3": true
+  },
+  "conditional_response_propagation_performed": true,
+  "decision": "NO_GO_CONDITIONAL_RESPONSE_PROPAGATION_REVISE",
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "forecast_definition": {
+    "beta_prior_mean_sd": [
+      1.0,
+      0.5
+    ],
+    "future_control_schedule_used_as_condition": true,
+    "future_measurements_used": false,
+    "process_sd": 0.12,
+    "target": "next Z24 modal response and xi under a declared controlled-settlement increment",
+    "transition": "delta_xi=beta*delta_settlement/95+epsilon; beta>=0",
+    "warning_health_threshold": 0.2
+  },
+  "limitations": [
+    "only three rolling forecast origins and four nonhealthy states are available",
+    "future controlled-settlement increments are declared conditioning inputs, not predictions",
+    "xi=delta/95 makes the schedule-nominal comparator intrinsically strong",
+    "the transition prior is intentionally informative because the progression sample is tiny",
+    "warning risk is a benchmark-coordinate event, not structural failure probability",
+    "no natural aging time, capacity or remaining-life target exists in Z24"
+  ],
+  "maintenance_decision_performed": false,
+  "raw_z24_signature_unchanged": true,
+  "rolling_origin": {
+    "maximum_absolute_xi_error": 0.07322336774809002,
+    "maximum_modal_rmse": 0.011394159730510948,
+    "maximum_point_forecast_seconds": 0.2684825090691447,
+    "maximum_probabilistic_forecast_seconds": 41.59215927310288,
+    "mean_modal_rmse": 0.008875759659069697,
+    "origins_mm": [
+      20.0,
+      40.0,
+      80.0
+    ],
+    "point_xi": [
+      0.4802976795699456,
+      0.7688818954098047,
+      0.9972774851918298
+    ],
+    "targets_mm": [
+      40.0,
+      80.0,
+      95.0
+    ],
+    "truth_xi_for_audit_only": [
+      0.42105263157894735,
+      0.8421052631578947,
+      1.0
+    ]
+  },
+  "timestamp_utc": "2026-09-06T03:36:29.903942+00:00",
+  "uncertainty": {
+    "bootstrap_replicates_per_origin": 1000,
+    "maximum_split_quantile_difference": 0.018770188715846958,
+    "maximum_xi_ci_width": 0.5860090111738956,
+    "mean_xi_crps": 0.03576579615452714,
+    "modal_ci_coverage_fraction": 1.0,
+    "xi_ci_coverage_fraction": 1.0
+  },
+  "version": "V0.6 FINAL"
+}

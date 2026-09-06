@@ -1,0 +1,8 @@
+repository,url,requested_branch,path,status,commit,error
+GPT-PINN,https://github.com/skoohy/GPT-PINN,,/home/a.riyahi/GPT_PINN/external/GPT-PINN,MISSING_CLONE_DISABLED_NONBLOCKING,,
+S2GPT-PINN,https://github.com/DuktigYajie/S2GPT-PINN,,/home/a.riyahi/GPT_PINN/external/S2GPT-PINN,MISSING_CLONE_DISABLED_NONBLOCKING,,
+ROM-GPT-PINN,https://github.com/ljq2025/ROM-GPT-PINN,,/home/a.riyahi/GPT_PINN/external/ROM-GPT-PINN,MISSING_CLONE_DISABLED_NONBLOCKING,,
+WaveNet_MiniRocket_Z24,https://github.com/Elios-Lab/WaveNet_MiniRocket_Z24_Bridge_Structural_Health_Monitoring,main,/home/a.riyahi/GPT_PINN/external/WaveNet_MiniRocket_Z24,MISSING_CLONE_DISABLED_NONBLOCKING,,
+explainable-shm-z24,https://github.com/you-soof/explainable-shm-z24,main,/home/a.riyahi/GPT_PINN/external/explainable-shm-z24,MISSING_CLONE_DISABLED_NONBLOCKING,,
+z24-shm-anomaly-detection,https://github.com/riyaarah/z24-shm-anomaly-detection,main,/home/a.riyahi/GPT_PINN/external/z24-shm-anomaly-detection,MISSING_CLONE_DISABLED_NONBLOCKING,,
+online-one-class-z24,https://github.com/AmroAbdrabo/application-of-online-anomaly-detection-using-one-class-classification-to-z24,jsv,/home/a.riyahi/GPT_PINN/external/online-one-class-z24,MISSING_CLONE_DISABLED_NONBLOCKING,,

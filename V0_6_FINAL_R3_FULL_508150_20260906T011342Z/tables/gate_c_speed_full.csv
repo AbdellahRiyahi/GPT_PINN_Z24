@@ -1,0 +1,8 @@
+quantity,seconds,interpretation
+offline Full-PINN basis training,696.5350599410012,5 greedily selected Full PINNs
+median new-parameter Full-PINN retraining,130.71468697302043,measured selected-basis training runtime
+median GPT online coefficient/frequency solve,0.3672799200285226,median of 42 timed held-out queries
+median independent FE solve,0.014985758578404784,160-element 1-D reference; accuracy validation baseline
+GPT online field assembly after solve,2.8945677913725377e-06,mean of 5000 matrix-vector products
+speed-up GPT solve versus Full-PINN retraining,355.89935589963443,dimensionless ratio
+speed-up GPT solve versus FE,0.040802008934332716,dimensionless ratio; below one means FE is faster

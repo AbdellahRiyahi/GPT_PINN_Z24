@@ -1,0 +1,4 @@
+check,value,reference,metric,tolerance,pass
+SDOF generalized eigenvalue,3.183098861837906,3.183098861837907,2.7902947984069054e-16,1e-12,True
+Beam FE first-four maximum relative error,4.225954772919437e-07,0.0,4.225954772919437e-07,0.001,True
+FE log(f)-log(EI) slope,0.5000000353094998,0.5,3.530949976848774e-08,0.005,True

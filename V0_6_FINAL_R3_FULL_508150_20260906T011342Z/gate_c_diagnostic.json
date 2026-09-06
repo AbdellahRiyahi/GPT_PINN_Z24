@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "basis_full_pinn_frequency_error_le_0p5pct": true,
+    "basis_full_pinn_mac_ge_0p995": true,
+    "finite": true,
+    "full_pinn_speedup_ge_10": true,
+    "gpt_online_median_le_5s": true,
+    "heldout_frequency_error_le_0p5pct": true,
+    "heldout_mac_ge_0p995": true,
+    "heldout_relative_residual_le_0p02": true,
+    "heldout_shape_l2_le_0p02": true
+  },
+  "decision": "GO_TO_Z24_CALIBRATION_PILOT_WITH_FE_BASELINE_REQUIRED",
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "final_basis_size": 5,
+  "final_maximum_unselected_physics_loss": 0.00013758262062880982,
+  "full_gate_c_requirement_met": true,
+  "gpt_speedup_vs_fe": 0.040802008934332716,
+  "gpt_speedup_vs_full_pinn": 355.89935589963443,
+  "greedy_stopping_tolerance": 1e-05,
+  "maximum_heldout_frequency_relative_error": 3.912583568880979e-05,
+  "maximum_heldout_relative_residual_rms": 0.0022125700503381044,
+  "maximum_heldout_shape_relative_l2": 2.9398701593012042e-05,
+  "median_fe_solve_seconds": 0.014985758578404784,
+  "median_full_pinn_retraining_seconds": 130.71468697302043,
+  "median_gpt_online_solve_seconds": 0.3672799200285226,
+  "minimum_heldout_mac": 0.9999999991357165,
+  "model_scope": "dimensionless simply supported beam with one smooth local stiffness-reduction parameter",
+  "mu_equated_to_delta_pier": false,
+  "online_assembly_seconds": 2.8945677913725377e-06,
+  "raw_z24_signature_unchanged": true,
+  "selected_mus": [
+    0.35,
+    0.7,
+    0.0,
+    0.6,
+    0.15
+  ],
+  "timestamp_utc": "2026-09-06T01:59:33.722841+00:00",
+  "z24_calibration_performed": false
+}

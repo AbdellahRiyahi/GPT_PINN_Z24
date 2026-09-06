@@ -1,0 +1,171 @@
+{
+  "basis_state_count": 3,
+  "capacity_or_rul_claim_performed": false,
+  "checkpoint_provenance": [
+    {
+      "alpha": 0.0,
+      "log10_support_ratio": 0.0,
+      "publication_evidence": true,
+      "quality_verified": true,
+      "source": "trained_in_current_run",
+      "state_source": "FULL_PINN_TRAINED",
+      "training_signature": {
+        "architecture": [
+          1,
+          64,
+          64,
+          64,
+          4
+        ],
+        "collocation_points": 321,
+        "lbfgs_iterations": 800,
+        "physics": "three_span_variational_subspace_v05",
+        "projected_epochs": 4000,
+        "support_stiffness_convention": "kappa_K=k_K*L^3/EI0; physical FE spring k_K=kappa_K*EI0/L^3",
+        "warm_epochs": 1800
+      }
+    },
+    {
+      "alpha": 0.0,
+      "log10_support_ratio": -2.0,
+      "publication_evidence": true,
+      "quality_verified": true,
+      "source": "trained_in_current_run",
+      "state_source": "FULL_PINN_TRAINED",
+      "training_signature": {
+        "architecture": [
+          1,
+          64,
+          64,
+          64,
+          4
+        ],
+        "collocation_points": 321,
+        "lbfgs_iterations": 800,
+        "physics": "three_span_variational_subspace_v05",
+        "projected_epochs": 4000,
+        "support_stiffness_convention": "kappa_K=k_K*L^3/EI0; physical FE spring k_K=kappa_K*EI0/L^3",
+        "warm_epochs": 1800
+      }
+    },
+    {
+      "alpha": 0.65,
+      "log10_support_ratio": -2.0,
+      "publication_evidence": true,
+      "quality_verified": true,
+      "source": "trained_in_current_run",
+      "state_source": "FULL_PINN_TRAINED",
+      "training_signature": {
+        "architecture": [
+          1,
+          64,
+          64,
+          64,
+          4
+        ],
+        "collocation_points": 321,
+        "lbfgs_iterations": 800,
+        "physics": "three_span_variational_subspace_v05",
+        "projected_epochs": 4000,
+        "support_stiffness_convention": "kappa_K=k_K*L^3/EI0; physical FE spring k_K=kappa_K*EI0/L^3",
+        "warm_epochs": 1800
+      }
+    }
+  ],
+  "checkpoint_quality_audit_file": "/home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_f_checkpoint_quality_audit_full.csv",
+  "checks": {
+    "full_execution": true,
+    "full_pinn_frequency_error_le_1pct": true,
+    "full_pinn_mac_ge_0p99": true,
+    "full_pinn_mass_normalization_loss_le_1e_5": true,
+    "full_pinn_orthogonality_loss_le_1e_5": true,
+    "full_pinn_weak_residual_le_3pct": true,
+    "gpt_basis_mass_orthogonality_error_le_1e_5": true,
+    "gpt_greedy_residual_le_3pct": true,
+    "gpt_independent_frequency_error_le_1pct": true,
+    "gpt_independent_mac_ge_0p99": true,
+    "gpt_independent_weak_residual_le_3pct": true,
+    "gpt_speedup_vs_fe_ge_2": true,
+    "gpt_speedup_vs_full_pinn_ge_100": true,
+    "raw_z24_signature_unchanged": true
+  },
+  "current_run_gate_f_publication_evidence": true,
+  "decision": "GO_TO_Z24_ONLINE_STATE_UPDATING_V0_6_FINAL",
+  "effective_max_basis_states": 5,
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "fe_baseline_disclosed": true,
+  "full_pinn": {
+    "fe_proxy_generation_seconds": null,
+    "maximum_frequency_relative_error": 0.001357134296164255,
+    "maximum_weak_residual": 0.023122563127621263,
+    "minimum_mac": 0.9999652280927787,
+    "offline_runtime_seconds": 921.4700424701441,
+    "state_source": "FULL_PINN"
+  },
+  "independent_gpt_validation": {
+    "maximum_frequency_relative_error": 0.0009578891831840845,
+    "maximum_weak_residual": 0.012925576046627921,
+    "minimum_mac": 0.9999446003151681,
+    "mode_comparison_count": 64,
+    "parameter_point_count": 16
+  },
+  "limitations": [
+    "Full-PINN and GPT-PINN solve the calibrated one-dimensional multispan model, not a 3-D bridge",
+    "validation is numerical against the FE reference; independent experimental mode shapes remain unavailable",
+    "the 2-D rectangle extrapolates model-updating coordinates beyond the calibrated Z24 trajectory",
+    "offline Full-PINN cost is substantial and reported explicitly",
+    "online Z24 state updating and uncertainty propagation remain the next gate",
+    "no FE smoke proxy was used"
+  ],
+  "maximum_final_candidate_weak_residual": 0.015831125984835777,
+  "online_z24_update_performed": false,
+  "overqualified_checkpoint_reuse_in_smoke": false,
+  "parameter_domain": {
+    "alpha": [
+      0.0,
+      0.65
+    ],
+    "log10_support_ratio": [
+      -2.0,
+      0.0
+    ]
+  },
+  "prior_gate_e_decision": "GO_TO_MULTIPARAMETRIC_GPT_PINN_V0_6_FINAL",
+  "raw_z24_signature_unchanged": true,
+  "reduced_rank": 12,
+  "selected_full_pinn_states": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -2.0
+    ],
+    [
+      0.65,
+      -2.0
+    ]
+  ],
+  "smoke_fe_proxy_used": false,
+  "state_source_classes": [
+    "FULL_PINN_TRAINED"
+  ],
+  "timestamp_utc": "2026-09-06T03:28:49.386776+00:00",
+  "timing": {
+    "basis_state_count": 3,
+    "fe_116_query_seconds": 0.019005246728193016,
+    "fe_proxy_generation_seconds": null,
+    "fe_repeats": 40,
+    "gpt_query_seconds": 0.00011546517303213477,
+    "mean_full_pinn_training_seconds": 307.15668082338135,
+    "offline_full_pinn_seconds": 921.4700424701441,
+    "query_repeats": 1000,
+    "reduced_rank": 12,
+    "smoke_fe_proxy_used": false,
+    "speedup_vs_fe_116": 164.5972220810142,
+    "speedup_vs_full_pinn_training": 2660167.3280123826
+  },
+  "version": "V0.6 FINAL"
+}

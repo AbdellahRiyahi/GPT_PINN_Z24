@@ -1,0 +1,11 @@
+result,value,unit,role
+Full-PINN maximum frequency relative error,7.06544418795534e-06,fraction,synthetic solver verification
+GPT-PINN maximum independent frequency relative error,0.0009578891831840845,fraction,primary numerical surrogate accuracy
+GPT-PINN minimum independent MAC,0.9999446003151681,dimensionless,primary numerical surrogate accuracy
+Certified median online speed-up vs FE-116,70.02851580996474,times,primary computational result
+Offline basis construction cost,921.4700424701441,seconds,cost disclosure
+FE break-even query count,100333.0,queries,multi-query Digital-Twin economics
+Strict LOSO GPT-PINN mean absolute xi error,0.04949564540028112,xi,primary experimental state-updating result
+Strict LOSO Spearman correlation,1.0,dimensionless,primary experimental state-updating result
+Locked FVT xi mean absolute error,0.053253614171466776,xi,locked cross-excitation audit
+Locked FVT maximum modal-ratio RMSE,0.02999378191133526,fraction,locked cross-excitation audit

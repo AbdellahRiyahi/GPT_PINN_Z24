@@ -1,0 +1,51 @@
+{
+  "calibration_checks": {
+    "effective_mu_monotonic": true,
+    "interpolation_modal_ratio_rmse_le_1p5pct": true,
+    "interpolation_mu_consistency_le_0p12": true,
+    "maximum_modal_ratio_rmse_le_1pct": false,
+    "maximum_sigma_mu_le_0p10": true,
+    "maximum_weighted_mse_le_9": false,
+    "no_upper_bound_saturation": true
+  },
+  "capacity_or_rul_claim_performed": false,
+  "decision": "NO_GO_REVISE_PHYSICAL_PARAMETERIZATION",
+  "equivalent_model": "one-dimensional simply supported beam with Koppigen-centered smooth effective rigidity zone",
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "experimental_to_equivalent_mode_mapping": {
+    "1": 1,
+    "3": 3,
+    "4": 4
+  },
+  "extrapolation_95mm_modal_ratio_rmse": 0.010223295762224905,
+  "extrapolation_95mm_mu_consistency_error": 0.027349958470588853,
+  "geometry_source": "https://bwk.kuleuven.be/bwm/z24",
+  "identifiability": {
+    "maximum_modal_ratio_rmse": 0.013299176887013129,
+    "maximum_sigma_mu": 0.007148160381118129,
+    "maximum_weighted_mean_square_residual": 17.837735368190533,
+    "monotonic_non_decreasing_fraction": 1.0,
+    "upper_bound_saturation_count": 0
+  },
+  "mapping_interpretation": "rank association of healthy-normalized shifts; physical mode-shape identity is not claimed",
+  "maximum_interpolation_modal_ratio_rmse": 0.013681820081289249,
+  "maximum_interpolation_mu_consistency_error": 0.04825208283345188,
+  "mu_interpretation": "effective model-updating coordinate; not measured stiffness loss and not pier settlement",
+  "multimodal_full_pinn_checks": {
+    "frequency_error_le_1pct": true,
+    "mac_ge_0p99": true,
+    "orthogonality_error_le_0p01": true,
+    "relative_residual_le_0p03": true
+  },
+  "multimodal_gpt_checks": {
+    "frequency_error_le_1pct": true,
+    "mac_ge_0p99": true,
+    "orthogonality_loss_le_1e-3": true,
+    "relative_residual_le_0p03": true,
+    "shape_l2_le_0p03": true
+  },
+  "raw_z24_signature_unchanged": true,
+  "timestamp_utc": "2026-09-06T03:05:05.661970+00:00",
+  "z24_calibration_performed": true
+}

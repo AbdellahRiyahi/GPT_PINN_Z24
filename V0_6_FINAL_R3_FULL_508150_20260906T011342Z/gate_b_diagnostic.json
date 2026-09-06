@@ -1,0 +1,30 @@
+{
+  "decision": "GO_TO_GPT_PINN_PILOT",
+  "delta_pier_equated_to_alpha_ei": false,
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "full_multi_seed_requirement_met": true,
+  "full_pinn_checks": {
+    "displacement_bc_le_1e-12": true,
+    "finite": true,
+    "frequency_relative_error_le_1pct": true,
+    "mac_ge_0p995": true,
+    "nontrivial": true,
+    "normalization_error_le_0p02": true,
+    "relative_residual_rms_le_0p05": true,
+    "scaled_moment_bc_le_0p02": true
+  },
+  "maximum_frequency_relative_error": 7.06544418795534e-06,
+  "maximum_normalization_absolute_error": 3.983098838977739e-06,
+  "maximum_relative_residual_rms": 0.00022532619360171387,
+  "minimum_mac": 0.9999999999994734,
+  "model_scope": "dimensionless uniform simply supported Euler-Bernoulli equivalent beam; fundamental mode only",
+  "raw_z24_signature_unchanged": true,
+  "run_count": 9,
+  "seed_omega_cv": 9.770310188413953e-07,
+  "seed_stability_threshold": 0.005,
+  "synthetic_checks_pass": true,
+  "timestamp_utc": "2026-09-06T01:46:34.730445+00:00",
+  "total_training_runtime_seconds": 1815.5036462659482,
+  "z24_calibration_performed": false
+}

@@ -1,0 +1,10 @@
+practice,decision,reason
+Use actual MAT trace lengths,ADOPT,"local records vary from 65,026 to 65,536 samples"
+"Last-value padding to 65,536",REJECT,creates an artificial constant tail and can bias spectral estimates
+Mirror/append rows to equalize concatenated setup lengths,REJECT,duplicates observations and changes the spectral/statistical sample
+Global StandardScaler before train/test split,REJECT,information leakage; no such scaling is required for the FDD core
+Detrend and segment-wise mean removal,ADOPT,removes DC/linear drift while preserving modal frequencies
+All physically compatible AVT setups,ADOPT,setup is the acquisition unit; robust medians and support counts retain spatial coverage
+DP1V/DP2V in FVT response FDD,REJECT,"driving-point shaker channels are inputs, not bridge-response accelerometers"
+Same AVT and FVT file setup number,REJECT,physical setup numbering is reversed and must be mapped/audited
+Paired-setup bootstrap covariance,ADOPT,preserves cross-mode dependence and avoids fabricated independent uncertainties

@@ -1,0 +1,121 @@
+{
+  "capacity_or_rul_claim_performed": false,
+  "checks": {
+    "all_local_weighted_jacobians_rank_two": true,
+    "all_nis_below_99pct_chi_square_limit": true,
+    "alpha_non_decreasing": true,
+    "bootstrap_split_quantile_difference_le_0p15_domain": true,
+    "bootstrap_valid_fraction_ge_0p99": true,
+    "final_performance_index_le_0p25": true,
+    "finite_state_and_uncertainty": true,
+    "full_execution": true,
+    "maximum_local_weighted_jacobian_condition_le_300": true,
+    "maximum_online_update_time_le_2s": true,
+    "maximum_standardized_residual_le_3sigma": true,
+    "maximum_state_modal_ratio_rmse_le_1pct": true,
+    "performance_agreement_with_batch_gate_e_le_0p05": false,
+    "performance_index_non_increasing": true,
+    "prior_gate_f_go": true,
+    "raw_z24_signature_unchanged": true,
+    "support_log_ratio_non_increasing": true,
+    "temporal_total_variation_not_above_independent": true
+  },
+  "chronology": {
+    "future_measurements_used_by_filter": false,
+    "healthy_state_anchored_by_ratio_normalization": true,
+    "scenarios": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "settlement_mm_for_audit_only": [
+      0.0,
+      20.0,
+      40.0,
+      80.0,
+      95.0
+    ]
+  },
+  "conditional_prognosis_performed": false,
+  "decision": "NO_GO_TWO_PARAMETER_UNCERTAINTY_UNSTABLE",
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "future_data_leakage_performed": false,
+  "identifiability": {
+    "maximum_local_condition_number": 142.82980901510112,
+    "minimum_local_rank": 2,
+    "warning": "individual coordinates are weakly separated near the healthy state"
+  },
+  "limitations": [
+    "only five controlled Z24 benchmark states are available and the analysis is retrospective",
+    "scenario 01 is anchored because every observation is normalized by that same reference",
+    "the temporal direction is valid for this progressive experiment, not automatically for repaired operation",
+    "cross-mode dependence is estimated from paired physical-setup bootstraps with shrinkage and propagated through the likelihood",
+    "the two effective coordinates compensate near healthy states; the 20 mm bootstrap is bimodal and its median is unstable",
+    "the performance index is not stiffness, load capacity, damage probability, or remaining useful life"
+  ],
+  "online_fit": {
+    "independent_scaled_total_variation": 1.5658057315732374,
+    "maximum_absolute_standardized_residual": 1.487998256782067,
+    "maximum_normalized_innovation_squared": 3.8031696902272265,
+    "maximum_state_modal_ratio_rmse": 0.0069597145650163224,
+    "maximum_update_seconds": 0.12414229987189174,
+    "nis_99pct_limit_df3": 11.344866730144373,
+    "sequential_scaled_total_variation": 1.5444418242358193
+  },
+  "online_z24_update_performed": true,
+  "performance_state": {
+    "ci95_lower": [
+      1.0,
+      0.5009652898125466,
+      0.44507840886417516,
+      0.17248888908083254,
+      0.06985433910130201
+    ],
+    "ci95_upper": [
+      1.0,
+      0.8784089307933822,
+      0.8018927604238232,
+      0.2976398305413728,
+      0.16174182533640694
+    ],
+    "final_point": 0.11001177909150411,
+    "maximum_difference_from_batch_gate_e_reference": 0.10375612816470403,
+    "point_trajectory": [
+      1.0,
+      0.7989209140851959,
+      0.5307494531498707,
+      0.22890321397055502,
+      0.11001177909150411
+    ]
+  },
+  "prior_gate_f_decision": "GO_TO_Z24_ONLINE_STATE_UPDATING_V0_6_FINAL",
+  "raw_z24_signature_unchanged": true,
+  "state_definition": {
+    "alpha": "effective local deck-rigidity reduction coordinate",
+    "log10_support_ratio": "effective Koppigen restraint log10 ratio",
+    "performance_index": "equal-weight normalized effective model state; not capacity"
+  },
+  "timestamp_utc": "2026-09-06T03:33:24.516047+00:00",
+  "uncertainty": {
+    "bootstrap_runtime_seconds": 269.0388274679426,
+    "cross_mode_covariance": "paired-setup bootstrap covariance with shrinkage; used for sampling and Mahalanobis likelihood",
+    "early_20mm_branch_probability_first_half": 0.29,
+    "early_20mm_branch_probability_second_half": 0.308,
+    "early_20mm_low_support_branch_probability": 0.299,
+    "early_20mm_low_support_branch_threshold": -1.0,
+    "interpretation": "two competing early-state parameter branches; not Monte Carlo under-sampling",
+    "maximum_split_half_performance_quantile_difference": 0.013398507234068768,
+    "maximum_split_half_quantile_difference_scaled_by_domain": 0.04323069494294178,
+    "method": "1000-replicate causal parametric bootstrap",
+    "replicates": 1000,
+    "surrogate_ratio_sigma_by_mode": [
+      0.00032226908623223704,
+      0.000866009595835188,
+      0.000833040685970405
+    ]
+  },
+  "version": "V0.6 FINAL"
+}

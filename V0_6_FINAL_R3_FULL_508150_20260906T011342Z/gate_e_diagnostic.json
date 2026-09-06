@@ -1,0 +1,97 @@
+{
+  "calibration": {
+    "maximum_absolute_modal_ratio_residual": 0.008687048131605257,
+    "maximum_effective_standardized_residual": 1.6899866561788668,
+    "maximum_state_modal_ratio_rmse": 0.006462731080725595,
+    "reduced_chi_square": 1.2444717330344703
+  },
+  "capacity_or_rul_claim_performed": false,
+  "checks": {
+    "all_loso_training_profiles_feasible_within_cap": true,
+    "extrapolation_95mm_rmse_le_1p5pct": true,
+    "full_execution": true,
+    "interpolation_loso_rmse_le_1pct": true,
+    "jacobian_condition_le_100": true,
+    "jacobian_full_column_rank": true,
+    "maximum_calibration_state_rmse_le_1pct": true,
+    "maximum_effective_standardized_residual_le_3sigma": true,
+    "measurement_only_3sigma_feasible": false,
+    "mesh_ratio_change_le_0p05pct": true,
+    "optimizer_converged": true,
+    "profiled_model_discrepancy_feasible_within_1pct_cap": true,
+    "raw_z24_signature_unchanged": true,
+    "reduced_chi_square_le_4": true
+  },
+  "decision": "GO_TO_MULTIPARAMETRIC_GPT_PINN_V0_6_FINAL",
+  "estimated_amplitudes_a_b": [
+    0.5603448350760594,
+    1.8664030371515379
+  ],
+  "execution_boundary": "STOP_AFTER_V0_6_FINAL_CONSOLIDATION_AND_CODE_FREEZE",
+  "execution_mode": "full",
+  "extrapolation_95mm_loso_rmse": 0.012065397759241847,
+  "fixed_exponents_p_q": [
+    1.0,
+    0.5
+  ],
+  "identifiability": {
+    "condition_number": 5.166404011469925,
+    "rank": 2,
+    "standard_errors_are_conditional_on_selected_discrepancy": true,
+    "weighted_jacobian_singular_values": [
+      49.080357154044286,
+      9.499906907218458
+    ]
+  },
+  "limitations": [
+    "measurement-only three-sigma infeasibility is retained as a model-adequacy finding",
+    "the isotropic discrepancy is a parsimonious development model and may hide mode-specific model error",
+    "the discrepancy is estimated on AVT and must be locked for FVT validation",
+    "rank-based experimental-to-FE mode association remains provisional",
+    "full experimental mode-shape assembly and environmental correction remain future work",
+    "LOSO validates observed severities only; it is not an independent bridge validation",
+    "fixed model-form assumptions are not structural ground truth"
+  ],
+  "loso_performed": true,
+  "maximum_interpolation_loso_rmse": 0.008666028808778972,
+  "maximum_loso_training_model_discrepancy_sd": 0.0053994534250531995,
+  "maximum_mesh_ratio_change": 0.00014132657885457256,
+  "parameter_interpretation": {
+    "alpha": "effective local deck rigidity-reduction coordinate",
+    "fixed_exponents_status": "development-selected model assumptions; not inferred",
+    "support_ratio": "effective Koppigen vertical-restraint ratio",
+    "warning": "model-updating coordinates; not measured component properties"
+  },
+  "physical_model": "continuous 14+30+14 m Euler-Bernoulli FE with local deck EI coordinate and Koppigen support spring",
+  "prior_gate_d_decision_preserved": "NO_GO_REVISE_PHYSICAL_PARAMETERIZATION",
+  "raw_z24_signature_unchanged": true,
+  "required_checks": {
+    "all_loso_training_profiles_feasible_within_cap": true,
+    "extrapolation_95mm_rmse_le_1p5pct": true,
+    "full_execution": true,
+    "interpolation_loso_rmse_le_1pct": true,
+    "jacobian_condition_le_100": true,
+    "jacobian_full_column_rank": true,
+    "maximum_calibration_state_rmse_le_1pct": true,
+    "maximum_effective_standardized_residual_le_3sigma": true,
+    "mesh_ratio_change_le_0p05pct": true,
+    "optimizer_converged": true,
+    "profiled_model_discrepancy_feasible_within_1pct_cap": true,
+    "raw_z24_signature_unchanged": true,
+    "reduced_chi_square_le_4": true
+  },
+  "timestamp_utc": "2026-09-06T03:12:54.554084+00:00",
+  "uncertainty_model": {
+    "fvt_policy": "selected AVT discrepancy is locked and not refitted on FVT",
+    "measurement_covariance": "paired physical-setup bootstrap covariance with marginal floors",
+    "measurement_only_max_standardized_residual": 6.117263629158133,
+    "minimum_sd_for_3sigma_adequacy": 0.00252197265625,
+    "model_discrepancy_policy": "profiled_gaussian_plus_minimum_3sigma_adequacy",
+    "predeclared_maximum_model_discrepancy_sd": 0.01,
+    "profile_likelihood_mle_sd": 0.0049478563946875114,
+    "selected_discrepancy_feasible_within_cap": true,
+    "selected_model_discrepancy_sd": 0.0049478563946875114
+  },
+  "version": "V0.6 FINAL",
+  "z24_calibration_performed": true
+}

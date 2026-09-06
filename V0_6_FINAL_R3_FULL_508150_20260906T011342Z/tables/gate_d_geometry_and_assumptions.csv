@@ -1,0 +1,5 @@
+quantity,value,unit,source
+total girder length,58.0,m,https://bwk.kuleuven.be/bwm/z24
+span lengths,14 / 30 / 14,m,https://bwk.kuleuven.be/bwm/z24
+normalized Koppigen-pier coordinate,0.7586206896551724,x/L,derived as (14+30)/58
+effective-zone width,0.14,x/L,pilot assumption; not a measured crack length

@@ -1,0 +1,10 @@
+{
+  "checkpoint": "/home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt",
+  "checkpoint_bytes": 33372,
+  "completed_model_count": 15,
+  "last_completed_basis": 5,
+  "last_completed_mode": 4,
+  "last_completed_mu": 0.15,
+  "timestamp_utc": "2026-09-06T02:58:08.721395+00:00",
+  "version": "V0_6_FINAL"
+}

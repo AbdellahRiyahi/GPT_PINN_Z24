@@ -1,0 +1,4 @@
+basis_size,reduced_rank,selected_alpha,selected_log10_support_ratio,maximum_unselected_weak_residual,worst_candidate_alpha,worst_candidate_log10_support_ratio,basis_mass_orthogonality_error
+1,4,0.0,0.0,0.2087431201592475,0.0,-2.0,8.881784197001252e-16
+2,8,0.0,-2.0,0.07498395996478886,0.65,-2.0,3.673761628242289e-09
+3,12,0.65,-2.0,0.015831125984835777,0.65,-1.5,2.922045272413243e-09

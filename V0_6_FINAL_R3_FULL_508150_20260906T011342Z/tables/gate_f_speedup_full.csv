@@ -1,0 +1,2 @@
+basis_state_count,reduced_rank,offline_full_pinn_seconds,mean_full_pinn_training_seconds,gpt_query_seconds,fe_116_query_seconds,speedup_vs_full_pinn_training,speedup_vs_fe_116,smoke_fe_proxy_used,fe_proxy_generation_seconds,query_repeats,fe_repeats
+3,12,921.4700424701441,307.15668082338135,0.00011546517303213477,0.019005246728193016,2660167.3280123826,164.5972220810142,False,,1000,40

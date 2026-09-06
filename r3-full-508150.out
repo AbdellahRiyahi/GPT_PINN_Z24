@@ -1,0 +1,539 @@
+============================================================
+GPT-PINN Z24 R3 — FULL SLURM RUN
+Date UTC          : 2026-09-06T01:13:42+00:00
+Job ID            : 508150
+Node              : data31
+Partition         : mediumq
+Allocated CPUs    : 8
+Allocated memory  : 32768 MB
+Python            : /cm/shared/apps/eb/software/Anaconda3/2024.02-1/bin/python
+Run profile       : full
+Run ID            : V0_6_FINAL_R3_FULL_508150_20260906T011342Z
+Notebook          : /home/a.riyahi/GPT_PINN/GPT_PINN_Z24_Physics_Digital_Twin_V0_6_FINAL_R3.ipynb
+Executed notebook : /home/a.riyahi/GPT_PINN/GPT_PINN_Z24_Physics_Digital_Twin_V0_6_FINAL_R3_EXECUTED_508150.ipynb
+============================================================
+Python 3.11.7
+Hostname          : data31
+SLURM_JOB_ID      : 508150
+Python executable : /cm/shared/apps/eb/software/Anaconda3/2024.02-1/bin/python
+Python version    : 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]
+nbconvert         : 7.10.0
+nbformat          : 5.9.2
+jupyter_client    : 8.6.0
+ipykernel         : 6.28.0
+NumPy             : 1.23.5
+SciPy             : 1.11.4
+Pandas            : 2.1.4
+PyTorch           : 2.7.1+cu118
+CUDA available    : False
+RUN_PROFILE       : full
+FULL_ENVIRONMENT_CHECK: PASS
+Installed kernelspec gptpinn_r3_508150 in /home/a.riyahi/.tmp/gptpinn_r3_508150/kernel-prefix/share/jupyter/kernels/gptpinn_r3_508150
+Kernel name : gptpinn_r3_508150
+Kernel argv : ['/cm/shared/apps/eb/software/Anaconda3/2024.02-1/bin/python', '-m', 'ipykernel_launcher', '-f', '{connection_file}']
+KERNEL_CHECK: PASS
+
+============================================================
+
+START NBCONVERT: 2026-09-06T01:13:51+00:00
+============================================================
+[HEARTBEAT] 2026-09-06T01:13:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=0
+
+[HEARTBEAT] 2026-09-06T01:18:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=1
+2026-09-06 02:18:22.7821608660       59207  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_101.pt
+
+[HEARTBEAT] 2026-09-06T01:23:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=1
+2026-09-06 02:22:59.9554923840       64007  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_101.pt
+
+[HEARTBEAT] 2026-09-06T01:28:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=3
+2026-09-06 02:24:17.5697162970       28009  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_101.pt
+2026-09-06 02:27:20.5977832570       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_202.pt
+2026-09-06 02:28:01.4783380910       59208  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_303.pt
+
+[HEARTBEAT] 2026-09-06T01:33:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=4
+2026-09-06 02:24:17.5697162970       28009  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_101.pt
+2026-09-06 02:27:20.5977832570       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_202.pt
+2026-09-06 02:30:38.9854957280       27921  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_303.pt
+2026-09-06 02:32:58.1129164940       61608  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_404.pt
+
+[HEARTBEAT] 2026-09-06T01:38:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=6
+2026-09-06 02:27:20.5977832570       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_202.pt
+2026-09-06 02:30:38.9854957280       27921  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_303.pt
+2026-09-06 02:34:59.2715892750       27832  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_404.pt
+2026-09-06 02:37:42.3868260880       28010  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_505.pt
+2026-09-06 02:38:50.8760868190       61607  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_0.600_seed_101.pt
+
+[HEARTBEAT] 2026-09-06T01:43:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=8
+2026-09-06 02:34:59.2715892750       27832  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_404.pt
+2026-09-06 02:37:42.3868260880       28010  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.000_seed_505.pt
+2026-09-06 02:39:51.0434382780       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_0.600_seed_101.pt
+2026-09-06 02:43:10.4963282470       27918  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_0.800_seed_101.pt
+2026-09-06 02:43:45.8869558680       59207  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.200_seed_101.pt
+
+[HEARTBEAT] 2026-09-06T01:48:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=10
+2026-09-06 02:39:51.0434382780       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_0.600_seed_101.pt
+2026-09-06 02:43:10.4963282470       27918  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_0.800_seed_101.pt
+2026-09-06 02:44:53.4422458770       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.200_seed_101.pt
+2026-09-06 02:46:34.3351795090       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.400_seed_101.pt
+2026-09-06 02:48:34.5819005210       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_01_mu_0.35000.pt
+
+[HEARTBEAT] 2026-09-06T01:53:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=12
+2026-09-06 02:44:53.4422458770       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.200_seed_101.pt
+2026-09-06 02:46:34.3351795090       27920  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/full_pinn_alpha_1.400_seed_101.pt
+2026-09-06 02:48:34.5819005210       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_01_mu_0.35000.pt
+2026-09-06 02:51:38.2649439980       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_02_mu_0.70000.pt
+2026-09-06 02:53:35.0757035500       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_03_mu_0.00000.pt
+
+[HEARTBEAT] 2026-09-06T01:58:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=14
+2026-09-06 02:48:34.5819005210       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_01_mu_0.35000.pt
+2026-09-06 02:51:38.2649439980       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_02_mu_0.70000.pt
+2026-09-06 02:53:35.0757035500       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_03_mu_0.00000.pt
+2026-09-06 02:55:51.5003304970       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_04_mu_0.60000.pt
+2026-09-06 02:58:36.1057363380       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_05_mu_0.15000.pt
+
+[HEARTBEAT] 2026-09-06T02:03:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=15
+2026-09-06 02:51:38.2649439980       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_02_mu_0.70000.pt
+2026-09-06 02:53:35.0757035500       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_03_mu_0.00000.pt
+2026-09-06 02:55:51.5003304970       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_04_mu_0.60000.pt
+2026-09-06 02:58:36.1057363380       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_05_mu_0.15000.pt
+2026-09-06 03:02:15.7255680750       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_2.pt
+
+[HEARTBEAT] 2026-09-06T02:08:51+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=17
+2026-09-06 02:55:51.5003304970       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_04_mu_0.60000.pt
+2026-09-06 02:58:36.1057363380       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_05_mu_0.15000.pt
+2026-09-06 03:02:15.7255680750       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_2.pt
+2026-09-06 03:05:00.6289068750       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_3.pt
+2026-09-06 03:08:00.0230467580       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T02:13:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=17
+2026-09-06 02:55:51.5003304970       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_04_mu_0.60000.pt
+2026-09-06 02:58:36.1057363380       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_05_mu_0.15000.pt
+2026-09-06 03:02:15.7255680750       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_2.pt
+2026-09-06 03:05:00.6289068750       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_3.pt
+2026-09-06 03:08:00.0230467580       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T02:18:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=18
+2026-09-06 02:58:36.1057363380       27915  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_c_full_basis_05_mu_0.15000.pt
+2026-09-06 03:02:15.7255680750       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_2.pt
+2026-09-06 03:05:00.6289068750       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_3.pt
+2026-09-06 03:08:00.0230467580       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_4.pt
+2026-09-06 03:14:27.7951265900       42499  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_2.pt
+
+[HEARTBEAT] 2026-09-06T02:23:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=19
+2026-09-06 03:02:15.7255680750       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_2.pt
+2026-09-06 03:05:00.6289068750       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_3.pt
+2026-09-06 03:08:00.0230467580       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_4.pt
+2026-09-06 03:14:27.7951265900       42499  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_2.pt
+2026-09-06 03:19:41.3790730040       42499  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_3.pt
+
+[HEARTBEAT] 2026-09-06T02:28:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=21
+2026-09-06 03:08:00.0230467580       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_01_mu_0.35000_mode_4.pt
+2026-09-06 03:14:27.7951265900       42499  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_2.pt
+2026-09-06 03:19:41.3790730040       42499  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_3.pt
+2026-09-06 03:24:47.6950666600       42485  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_4.pt
+2026-09-06 03:27:33.6804011980       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_2.pt
+
+[HEARTBEAT] 2026-09-06T02:33:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=23
+2026-09-06 03:19:41.3790730040       42499  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_3.pt
+2026-09-06 03:24:47.6950666600       42485  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_4.pt
+2026-09-06 03:27:33.6804011980       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_2.pt
+2026-09-06 03:30:55.2573232990       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_3.pt
+2026-09-06 03:33:17.5418712720       33820  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T02:38:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=23
+2026-09-06 03:19:41.3790730040       42499  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_3.pt
+2026-09-06 03:24:47.6950666600       42485  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_4.pt
+2026-09-06 03:27:33.6804011980       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_2.pt
+2026-09-06 03:30:55.2573232990       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_3.pt
+2026-09-06 03:33:17.5418712720       33820  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T02:43:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=24
+2026-09-06 03:24:47.6950666600       42485  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_02_mu_0.70000_mode_4.pt
+2026-09-06 03:27:33.6804011980       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_2.pt
+2026-09-06 03:30:55.2573232990       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_3.pt
+2026-09-06 03:33:17.5418712720       33820  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_4.pt
+2026-09-06 03:39:00.7443329320       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_2.pt
+
+[HEARTBEAT] 2026-09-06T02:48:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=26
+2026-09-06 03:30:55.2573232990       33932  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_3.pt
+2026-09-06 03:33:17.5418712720       33820  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_03_mu_0.00000_mode_4.pt
+2026-09-06 03:39:00.7443329320       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_2.pt
+2026-09-06 03:45:17.1444216720       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_3.pt
+2026-09-06 03:48:30.7594170840       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T02:53:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=28
+2026-09-06 03:39:00.7443329320       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_2.pt
+2026-09-06 03:45:17.1444216720       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_3.pt
+2026-09-06 03:48:30.7594170840       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt
+2026-09-06 03:51:46.0353735760       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+
+[HEARTBEAT] 2026-09-06T02:58:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=29
+2026-09-06 03:45:17.1444216720       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_3.pt
+2026-09-06 03:48:30.7594170840       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt
+2026-09-06 03:51:46.0353735760       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T03:03:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=29
+2026-09-06 03:45:17.1444216720       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_3.pt
+2026-09-06 03:48:30.7594170840       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt
+2026-09-06 03:51:46.0353735760       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T03:08:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=29
+2026-09-06 03:45:17.1444216720       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_3.pt
+2026-09-06 03:48:30.7594170840       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt
+2026-09-06 03:51:46.0353735760       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T03:13:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=29
+2026-09-06 03:45:17.1444216720       42611  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_3.pt
+2026-09-06 03:48:30.7594170840       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt
+2026-09-06 03:51:46.0353735760       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+
+[HEARTBEAT] 2026-09-06T03:18:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=30
+2026-09-06 03:48:30.7594170840       33036  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_04_mu_0.60000_mode_4.pt
+2026-09-06 03:51:46.0353735760       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+2026-09-06 04:18:02.1561307450       72146  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r0.0000.pt
+
+[HEARTBEAT] 2026-09-06T03:23:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=31
+2026-09-06 03:51:46.0353735760       33260  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_2.pt
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+2026-09-06 04:18:02.1561307450       72146  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r0.0000.pt
+2026-09-06 04:23:33.7648566440       72167  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r-2.0000.pt
+
+[HEARTBEAT] 2026-09-06T03:28:52+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=32
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+2026-09-06 04:18:02.1561307450       72146  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r0.0000.pt
+2026-09-06 04:23:33.7648566440       72167  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r-2.0000.pt
+2026-09-06 04:28:26.6649867280       72167  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.6500_r-2.0000.pt
+
+[HEARTBEAT] 2026-09-06T03:33:53+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=32
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+2026-09-06 04:18:02.1561307450       72146  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r0.0000.pt
+2026-09-06 04:23:33.7648566440       72167  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r-2.0000.pt
+2026-09-06 04:28:26.6649867280       72167  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.6500_r-2.0000.pt
+
+[HEARTBEAT] 2026-09-06T03:38:53+00:00
+[HEARTBEAT] job=508150 node=data31
+[HEARTBEAT] checkpoint_count=32
+2026-09-06 03:53:28.9492959140       33256  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_3.pt
+2026-09-06 03:58:08.7123614480       33372  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_d_full_basis_05_mu_0.15000_mode_4.pt
+2026-09-06 04:18:02.1561307450       72146  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r0.0000.pt
+2026-09-06 04:23:33.7648566440       72167  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.0000_r-2.0000.pt
+2026-09-06 04:28:26.6649867280       72167  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/checkpoints/970ffcaa511ebcb7/gate_f_v03/multispan_full_pinn_a0.6500_r-2.0000.pt
+
+============================================================
+END NBCONVERT: 2026-09-06T03:40:16+00:00
+============================================================
+
+Executed notebook:
+-rw-rw-r-- 1 a.riyahi a.riyahi 1.3M Sep  6 04:40 /home/a.riyahi/GPT_PINN/GPT_PINN_Z24_Physics_Digital_Twin_V0_6_FINAL_R3_EXECUTED_508150.ipynb
+
+Executed notebook SHA-256:
+bcb1ae2a0846f21788935322f2357d2c1e8064754b3ffc977d605682a6a66992  /home/a.riyahi/GPT_PINN/GPT_PINN_Z24_Physics_Digital_Twin_V0_6_FINAL_R3_EXECUTED_508150.ipynb
+
+Run directory:
+/home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z
+
+Generated artifacts:
+2026-09-06 02:14        1046  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_data_practice_decisions.csv
+2026-09-06 02:14     1200933  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_03_representative_signals_psd.png
+2026-09-06 02:14        1231  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/reference_repository_commits.csv
+2026-09-06 02:14      134512  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_01_research_workflow.png
+2026-09-06 02:14        1641  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/reference_repository_decisions.csv
+2026-09-06 02:14       16439  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_01_research_workflow.pdf
+2026-09-06 02:14       18641  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_02_controlled_settlement_scenarios.pdf
+2026-09-06 02:14        2590  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_peer_reviewed_literature_audit.csv
+2026-09-06 02:14       28459  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_mat_inventory.csv
+2026-09-06 02:14         314  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_avt_fvt_physical_setup_mapping.csv
+2026-09-06 02:14        4775  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/table_01_z24_scenarios.csv
+2026-09-06 02:14      501719  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_channel_registry.csv
+2026-09-06 02:14        6603  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_primary_avt_quality_control.csv
+2026-09-06 02:14        6613  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/environment_audit.json
+2026-09-06 02:14        9118  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_fvt_shaker_channel_audit.csv
+2026-09-06 02:14       92703  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_02_controlled_settlement_scenarios.png
+2026-09-06 02:15        1354  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_a_mode_summary.csv
+2026-09-06 02:15        1738  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_a_diagnostic.json
+2026-09-06 02:15        2287  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_a_joint_modal_ratio_covariance.csv
+2026-09-06 02:15      231125  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_04_extracted_structural_frequencies.png
+2026-09-06 02:15      232025  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_03_representative_signals_psd.pdf
+2026-09-06 02:15         270  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/scenario03_setup01_sensitivity.csv
+2026-09-06 02:15      276145  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_05_synthetic_physics.png
+2026-09-06 02:15         283  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_b_beam_model_parameters.csv
+2026-09-06 02:15       29395  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_04_extracted_structural_frequencies.pdf
+2026-09-06 02:15         323  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_b_synthetic_physics_checks.csv
+2026-09-06 02:15       34048  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_05_synthetic_physics.pdf
+2026-09-06 02:15       34805  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_fixed_reference_spectral_transmissibility_audit.csv
+2026-09-06 02:15         386  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_healthy_frequency_sanity.csv
+2026-09-06 02:15      459020  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_a_joint_modal_ratio_bootstrap_draws.csv
+2026-09-06 02:15         769  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_retained_modal_observations.csv
+2026-09-06 02:15         783  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_a_candidate_mode_assessment.csv
+2026-09-06 02:15         884  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_avt_fdd_tracking_log.csv
+2026-09-06 02:15         937  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/z24_common_vertical_channels_by_setup.csv
+2026-09-06 02:46        1191  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_b_diagnostic.json
+2026-09-06 02:46         227  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_fe_mesh_convergence.csv
+2026-09-06 02:46        3505  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_b_full_pinn_verification_full.csv
+2026-09-06 02:46       36253  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_06_full_pinn_gate_b_full.pdf
+2026-09-06 02:46      370432  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_06_full_pinn_gate_b_full.png
+2026-09-06 02:58        1466  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_full_pinn_basis_verification_full.csv
+2026-09-06 02:58      346504  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_07_gate_c_greedy_basis_full.png
+2026-09-06 02:58       34650  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_07_gate_c_greedy_basis_full.pdf
+2026-09-06 02:58         364  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_greedy_history_full.csv
+2026-09-06 02:58        8160  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_candidate_physics_scan_full.csv
+2026-09-06 02:59        1485  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_query_timings_full.csv
+2026-09-06 02:59      152383  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_09_gate_c_speed_full.png
+2026-09-06 02:59        1633  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_c_diagnostic.json
+2026-09-06 02:59       17973  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_heldout_accuracy_full.csv
+2026-09-06 02:59       28234  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_09_gate_c_speed_full.pdf
+2026-09-06 02:59         303  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_geometry_and_assumptions.csv
+2026-09-06 02:59       36487  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_08_gate_c_heldout_accuracy_full.pdf
+2026-09-06 02:59      408878  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_08_gate_c_heldout_accuracy_full.png
+2026-09-06 02:59         648  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_accuracy_by_basis_size_full.csv
+2026-09-06 02:59         705  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_c_speed_full.csv
+2026-09-06 03:58       10061  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_multimodal_gpt_validation_full.csv
+2026-09-06 03:58        2383  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_full_pinn_training_full.csv
+2026-09-06 03:58        3181  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_full_pinn_verification_full.csv
+2026-09-06 03:58       32090  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_10_gate_d_multimodal_full_pinn_full.pdf
+2026-09-06 03:58         364  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_d_progress.json
+2026-09-06 03:58      425776  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_10_gate_d_multimodal_full_pinn_full.png
+2026-09-06 04:05       11632  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/config.json
+2026-09-06 04:05        1247  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_z24_calibration_residuals_full.csv
+2026-09-06 04:05        1615  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_z24_observed_frequency_ratios.csv
+2026-09-06 04:05        1643  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_leave_one_severity_out_full.csv
+2026-09-06 04:05        2099  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_d_diagnostic.json
+2026-09-06 04:05      258683  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_12_gate_d_loso_full.png
+2026-09-06 04:05       33773  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_multimodal_physics_response_full.csv
+2026-09-06 04:05       36043  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_12_gate_d_loso_full.pdf
+2026-09-06 04:05       37671  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_11_gate_d_z24_calibration_full.pdf
+2026-09-06 04:05      432042  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_11_gate_d_z24_calibration_full.png
+2026-09-06 04:05         583  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_d_z24_calibration_full.csv
+2026-09-06 04:06         141  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_fixed_exponents_full.csv
+2026-09-06 04:06         228  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_parameter_identifiability_full.csv
+2026-09-06 04:06         281  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_mesh_convergence_full.csv
+2026-09-06 04:06      307340  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_13_gate_e_multispan_calibration_full.png
+2026-09-06 04:06       30821  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_13_gate_e_multispan_calibration_full.pdf
+2026-09-06 04:06        3348  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_z24_calibration_residuals_full.csv
+2026-09-06 04:06       36408  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_optimizer_candidates_full.csv
+2026-09-06 04:06         374  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_model_discrepancy_audit_full.csv
+2026-09-06 04:06         445  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_geometry_and_assumptions.csv
+2026-09-06 04:06        4876  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_model_discrepancy_profile_full.csv
+2026-09-06 04:12        1505  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_leave_one_severity_out_full.csv
+2026-09-06 04:12        2418  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_e_leave_one_severity_out_residuals_full.csv
+2026-09-06 04:12      264719  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_14_gate_e_loso_full.png
+2026-09-06 04:12       32530  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_14_gate_e_loso_full.pdf
+2026-09-06 04:12        4365  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_e_diagnostic.json
+2026-09-06 04:28       10921  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_f_gpt_independent_validation_full.csv
+2026-09-06 04:28        1493  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_online_state_estimates_full.csv
+2026-09-06 04:28        1567  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_modal_fit_full.csv
+2026-09-06 04:28      247605  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_16_gate_f_accuracy_full.png
+2026-09-06 04:28      276219  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_15_gate_f_greedy_full.png
+2026-09-06 04:28        3112  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_observation_uncertainty_full.csv
+2026-09-06 04:28       34361  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_16_gate_f_accuracy_full.pdf
+2026-09-06 04:28       35230  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_15_gate_f_greedy_full.pdf
+2026-09-06 04:28      374727  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_17_gate_f_speedup_full.png
+2026-09-06 04:28         385  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_f_greedy_history_full.csv
+2026-09-06 04:28         387  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_f_speedup_full.csv
+2026-09-06 04:28       40533  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_17_gate_f_speedup_full.pdf
+2026-09-06 04:28        4186  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_f_candidate_physics_scores_full.csv
+2026-09-06 04:28         435  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_local_identifiability_full.csv
+2026-09-06 04:28        4508  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_f_checkpoint_quality_audit_full.csv
+2026-09-06 04:28        4607  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_f_full_pinn_verification_full.csv
+2026-09-06 04:28         495  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_temporal_regularization_ablation_full.csv
+2026-09-06 04:28        5489  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_f_diagnostic.json
+2026-09-06 04:33        1252  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_bootstrap_intervals_full.csv
+2026-09-06 04:33        2704  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g1_manifold_calibration_full.csv
+2026-09-06 04:33        2750  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_bootstrap_stability_full.csv
+2026-09-06 04:33      297927  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g_bootstrap_samples_full.csv
+2026-09-06 04:33       30628  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_18_gate_g_online_modal_fit_full.pdf
+2026-09-06 04:33       32165  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_19_gate_g_parameter_uncertainty_full.pdf
+2026-09-06 04:33       32214  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_20_gate_g_state_coherence_full.pdf
+2026-09-06 04:33      335457  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_18_gate_g_online_modal_fit_full.png
+2026-09-06 04:33      397380  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_19_gate_g_parameter_uncertainty_full.png
+2026-09-06 04:33      400236  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_20_gate_g_state_coherence_full.png
+2026-09-06 04:33        4786  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_g_diagnostic.json
+2026-09-06 04:33       61098  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_21_gate_g_uncertainty_topology_full.pdf
+2026-09-06 04:33         619  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g1_weighted_sensitivity_full.csv
+2026-09-06 04:33      691266  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_21_gate_g_uncertainty_topology_full.png
+2026-09-06 04:34      107856  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g1_loso_bootstrap_samples_full.csv
+2026-09-06 04:34        1320  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g1_online_state_estimates_full.csv
+2026-09-06 04:34      171835  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_23_gate_g1_loso_full.png
+2026-09-06 04:34        1998  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g1_loso_full.csv
+2026-09-06 04:34      207284  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_g1_bootstrap_samples_full.csv
+2026-09-06 04:34       23779  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_23_gate_g1_loso_full.pdf
+2026-09-06 04:34      263396  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_22_gate_g1_manifold_full.png
+2026-09-06 04:34       32794  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_22_gate_g1_manifold_full.pdf
+2026-09-06 04:34        3832  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_g1_diagnostic.json
+2026-09-06 04:35       33799  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_24_gate_g1_online_state_full.pdf
+2026-09-06 04:35      415365  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_24_gate_g1_online_state_full.png
+2026-09-06 04:36        1538  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_h_modal_forecasts_full.csv
+2026-09-06 04:36      163273  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_27_gate_h_warning_risk_full.png
+2026-09-06 04:36      165838  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_25_gate_h_rolling_forecast_full.png
+2026-09-06 04:36       19079  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_26_gate_h_modal_forecast_full.pdf
+2026-09-06 04:36       19948  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_27_gate_h_warning_risk_full.pdf
+2026-09-06 04:36       20828  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_25_gate_h_rolling_forecast_full.pdf
+2026-09-06 04:36      230032  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_26_gate_h_modal_forecast_full.png
+2026-09-06 04:36        2702  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_h_rolling_forecasts_full.csv
+2026-09-06 04:36      309134  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_h_predictive_samples_full.csv
+2026-09-06 04:36        4175  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_h_diagnostic.json
+2026-09-06 04:36         830  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_h_threshold_risk_full.csv
+2026-09-06 04:37        1350  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_i_fvt_locked_inverse_results.csv
+2026-09-06 04:37      136211  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_i_fvt_bootstrap_samples.csv
+2026-09-06 04:37        1369  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_i_fvt_mode_summary.csv
+2026-09-06 04:37        1527  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_i_fvt_locked_observations.csv
+2026-09-06 04:37        1606  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_i_fvt_common_vertical_channels.csv
+2026-09-06 04:37        1618  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_i_fvt_extraction_log.csv
+2026-09-06 04:37        1711  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/gate_i_fvt_joint_modal_ratio_covariance.csv
+2026-09-06 04:37        2214  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_FROZEN_PROTOCOL.json
+2026-09-06 04:37        2410  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/gate_i_diagnostic.json
+2026-09-06 04:37       35811  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_28_gate_i_fvt_locked_validation.pdf
+2026-09-06 04:37      426178  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_28_gate_i_fvt_locked_validation.png
+2026-09-06 04:39        1161  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_TIMING_SUMMARY.json
+2026-09-06 04:39        1475  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_cost_amortization.csv
+2026-09-06 04:39        1663  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_timing_by_parameter_point.csv
+2026-09-06 04:39      255904  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_29_final_timing_amortization.png
+2026-09-06 04:39        3136  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_observation_ablation_folds.csv
+2026-09-06 04:39       31750  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_29_final_timing_amortization.pdf
+2026-09-06 04:39      455955  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_timing_raw_samples.csv
+2026-09-06 04:39         596  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_ABLATION_SUMMARY.json
+2026-09-06 04:39         765  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_observation_ablation.csv
+2026-09-06 04:39         956  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_basis_ablation.csv
+2026-09-06 04:40        1077  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_main_results.tex
+2026-09-06 04:40       20334  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_ARTIFACT_MANIFEST.csv
+2026-09-06 04:40       21016  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_checkpoint_io_audit.csv
+2026-09-06 04:40      226071  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_31_final_sensitivity.png
+2026-09-06 04:40      236103  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_32_final_principal_evidence.png
+2026-09-06 04:40       25609  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_31_final_sensitivity.pdf
+2026-09-06 04:40        2895  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_EXECUTION_CERTIFICATE.json
+2026-09-06 04:40       29989  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_30_final_ablation.pdf
+2026-09-06 04:40      313819  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_30_final_ablation.png
+2026-09-06 04:40       31498  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/figures/figure_32_final_principal_evidence.pdf
+2026-09-06 04:40       32033  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_CHECKPOINT_IO_AUDIT.json
+2026-09-06 04:40         493  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_basis_grid_sensitivity.csv
+2026-09-06 04:40         548  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_readiness_requirements.csv
+2026-09-06 04:40        5697  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_fe_mesh_sensitivity.csv
+2026-09-06 04:40        6369  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_EVIDENCE_SUMMARY.json
+2026-09-06 04:40         656  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_CODE_FREEZE.json
+2026-09-06 04:40         663  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_gate_decisions.csv
+2026-09-06 04:40         791  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/V0_6_FINAL_SENSITIVITY_SUMMARY.json
+2026-09-06 04:40         845  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_claim_matrix.csv
+2026-09-06 04:40         986  /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z/tables/V0_6_FINAL_main_results.csv
+============================================================================
+EXECUTION CERTIFICATE
+============================================================================
+run_profile                                         : full
+hostname                                            : data31
+is_login_node                                       : False
+slurm_job_id                                        : 508150
+all_gate_objects_executed                           : True
+raw_z24_metadata_unchanged                          : True
+full_numerical_run_on_marwan_demonstrated           : True
+full_run_on_marwan_compute_node_demonstrated        : True
+publication_timing_compute_certified                : True
+gate_f_smoke_fe_proxy_used                          : False
+gate_f_state_source_classes                         : ['FULL_PINN_TRAINED']
+checkpoint_io_failure_count                         : 0
+
+============================================================================
+SCIENTIFIC DECISION
+============================================================================
+article_evidence_status                             : READY_FOR_MANUSCRIPT_AND_CODE_FREEZE
+scientific_manuscript_ready                         : True
+publication_compute_certified                       : True
+code_freeze_authorized                              : True
+current_run_evidence_class                          : FULL_GPT_PINN_PUBLICATION_CANDIDATE
+locked_fvt_audit_decision                           : NO_GO_Z24_FVT_EXTERNAL_VALIDATION
+gate_h_supplementary_status                         : NO_GO_CONDITIONAL_RESPONSE_PROPAGATION_REVISE
+autonomous_prognosis_supported                      : False
+gate_f_smoke_fe_proxy_used                          : False
+
+GATE DECISIONS
+  A_data_and_modal_observations               : GO_TO_SYNTHETIC_PHYSICS_PILOT
+  B_full_pinn                                 : GO_TO_GPT_PINN_PILOT
+  C_gpt_pinn_pilot                            : GO_TO_Z24_CALIBRATION_PILOT_WITH_FE_BASELINE_REQUIRED
+  D_simple_parameterization                   : NO_GO_REVISE_PHYSICAL_PARAMETERIZATION
+  E_three_span_parameterization               : GO_TO_MULTIPARAMETRIC_GPT_PINN_V0_6_FINAL
+  F_multimode_gpt_pinn                        : GO_TO_Z24_ONLINE_STATE_UPDATING_V0_6_FINAL
+  G1_identifiable_trajectory                  : GO_TO_CONDITIONAL_RESPONSE_PROPAGATION_V0_6_FINAL
+  G_free_two_parameter_update                 : NO_GO_TWO_PARAMETER_UNCERTAINTY_UNSTABLE
+  H_conditional_response_propagation          : NO_GO_CONDITIONAL_RESPONSE_PROPAGATION_REVISE
+  I_z24_fvt_locked_audit                      : NO_GO_Z24_FVT_EXTERNAL_VALIDATION
+
+FAILED CORE REQUIREMENTS
+  None
+
+============================================================
+FULL JOB COMPLETED SUCCESSFULLY
+Date UTC : 2026-09-06T03:40:16+00:00
+Job ID   : 508150
+Run ID   : V0_6_FINAL_R3_FULL_508150_20260906T011342Z
+Run dir  : /home/a.riyahi/GPT_PINN/outputs/v0_6_final/runs/V0_6_FINAL_R3_FULL_508150_20260906T011342Z
+============================================================

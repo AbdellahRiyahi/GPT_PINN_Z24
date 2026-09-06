@@ -1,0 +1,5 @@
+symbol,value,role,status
+L,1.0,dimensionless span length,synthetic pilot
+rhoA,1.0,dimensionless mass per length,synthetic pilot
+EI0,1.0,reference flexural rigidity,synthetic pilot
+alpha_EI,"[0.6, 0.8, 1.0, 1.2, 1.4]",effective stiffness retention,independent of delta_pier at Gate B

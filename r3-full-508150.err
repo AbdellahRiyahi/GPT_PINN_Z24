@@ -1,0 +1,11 @@
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[InstallIPythonKernelSpecApp] WARNING | Installing to /home/a.riyahi/.tmp/gptpinn_r3_508150/kernel-prefix/share/jupyter/kernels, which is not in ['/home/a.riyahi/.local/share/jupyter/kernels', '/cm/shared/apps/eb/software/Anaconda3/2024.02-1/share/jupyter/kernels', '/usr/local/share/jupyter/kernels', '/usr/share/jupyter/kernels', '/home/a.riyahi/.ipython/kernels']. The kernelspec may not be found.
+[NbConvertApp] Converting notebook /home/a.riyahi/GPT_PINN/GPT_PINN_Z24_Physics_Digital_Twin_V0_6_FINAL_R3.ipynb to notebook
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[NbConvertApp] Writing 1309501 bytes to /home/a.riyahi/GPT_PINN/GPT_PINN_Z24_Physics_Digital_Twin_V0_6_FINAL_R3_EXECUTED_508150.ipynb

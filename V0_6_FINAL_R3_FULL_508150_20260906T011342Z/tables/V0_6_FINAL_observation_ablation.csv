@@ -1,0 +1,6 @@
+ablation,modes,covariance_policy,model_discrepancy_included,mean_absolute_xi_error,maximum_absolute_xi_error,spearman,maximum_training_standardized_residual
+reference_full_cov_discrepancy_modes_1_3_4,"[1, 3, 4]",full,True,0.04949598208015074,0.11789236085779514,1.0,1.7166677435472728
+diagonal_cov_discrepancy_modes_1_3_4,"[1, 3, 4]",diagonal,True,0.049180798108641025,0.11743595491583081,1.0,1.7267650828467274
+full_cov_no_discrepancy_modes_1_3_4,"[1, 3, 4]",full,False,0.05079066695712581,0.11533897309763447,1.0,1.7166677435472728
+full_cov_discrepancy_modes_1_3,"[1, 3]",full,True,0.054959311934788244,0.1437300314078957,1.0,1.7229441390645233
+full_cov_discrepancy_mode_1,[1],full,True,0.09162427902940919,0.1473518092596383,0.7999999999999999,1.377988428480691

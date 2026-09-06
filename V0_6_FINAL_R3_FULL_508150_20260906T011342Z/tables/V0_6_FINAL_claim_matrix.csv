@@ -1,0 +1,8 @@
+claim,status,evidence
+Bridge-adapted greedy GPT-PINN reduced modal solver,SUPPORTED_IF_FINAL_CORE_CHECKS_PASS,"Gates B, C, E and F"
+Rapid online modal Digital-Twin query relative to the frozen FE-116 baseline,SUPPORTED_ONLY_BY_COMPUTE_NODE_CERTIFIED_TIMING,Final timing benchmark
+One-dimensional identifiable progression coordinate on Z24 settlement states,SUPPORTED_IF_GATE_G1_PASSES,Gate G.1 strict LOSO
+Free two-parameter physical identifiability,NOT_SUPPORTED,Gate G NO-GO is preserved
+Locked AVT-to-FVT cross-excitation assessment,SUPPORTED_AS_AN_AUDIT_REGARDLESS_OF_GO_OR_NO_GO,"Gate I, no target refit"
+Autonomous prognosis or calendar-time RUL,NOT_SUPPORTED,Gate H is conditional response propagation only
+"Actual capacity, failure probability or optimal maintenance",NOT_SUPPORTED,Z24 controlled benchmark does not supply those targets

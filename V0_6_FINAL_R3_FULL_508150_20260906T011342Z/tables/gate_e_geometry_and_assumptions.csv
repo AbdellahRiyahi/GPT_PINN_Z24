@@ -1,0 +1,7 @@
+item,value,status
+span_lengths_m,"14, 30, 14",official Z24 geometry
+support_positions_m,"0, 14, 44, 58",derived from span lengths
+Koppigen_support,vertical spring at x=44 m,V0.6 FINAL model assumption
+local_EI_zone,Gaussian sigma=2.5 m centered x=44 m,V0.6 FINAL model assumption
+absolute_EI_and_mass,normalized,not identifiable from ratios
+model_discrepancy,isotropic ratio-space SD tau_E,profiled AVT development nuisance term; locked for FVT
